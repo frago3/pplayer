@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+#root {
+  font-family: sans-serif;
+  max-width: 1666px;
+  margin: 0 auto;
+  padding: 0rem;
+  height: 100dvh;
+}

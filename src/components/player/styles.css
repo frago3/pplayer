@@ -1,0 +1,72 @@
+
+.player button {
+  border: unset;
+  background-color: unset;
+  font-size: unset;
+  font-family: unset;
+  cursor: pointer;
+}
+.player button:active {
+  background-color: unset;
+  transform: translateY(3px);
+}
+.selected button {
+  font-weight: bold;
+}
+
+.player {
+  padding-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.player ul {
+  flex:1;
+  overflow: auto;
+  padding-left: 1.25rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.player ul button {
+  font-size: 1.13rem;
+  padding-block: 5px;
+  padding-inline: 0;
+  margin-bottom: 3px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.player table {
+  margin-bottom: 10px;
+  max-width: 566px;
+  width: 100%;
+  align-self: center;
+}
+
+.player input {
+  accent-color: black;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0;
+}
+.player .time span {
+  padding-left: 2px;
+  padding-right: 3px;
+  font-size: .9rem;
+}
+.player .time span:nth-child(2){
+  float: right;
+}
+.player .buttons td:nth-child(1){
+  text-align: right;
+}
+.player .buttons td:nth-child(2) {
+  text-align: center;
+}
+.player .buttons td:nth-child(3){
+  text-align: left;
+}
